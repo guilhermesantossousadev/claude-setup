@@ -1,0 +1,16 @@
+# Nunca versionar credenciais, historico ou estado do Claude Code
+.credentials.json
+.claude.json
+settings.local.json
+projects/
+todos/
+statsig/
+shell-snapshots/
+*.backup-*
+
+# Lixo de sistema
+Thumbs.db
+.DS_Store
+
+# Skills sincronizadas automaticamente pelo Claude
+skills/synced/
